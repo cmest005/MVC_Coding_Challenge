@@ -16,15 +16,25 @@ For each data set, output “Data Set x:” on a line by itself, where x is its 
 Sample Input / Output
 Input	Output
 2
+
 2 2
+
 2
+
 2 0
+
 0 5
+
 3 3
+
 3 5
+
 1 1 1
+
 3 0 0
+
 1 10 0
+
 
 Data Set 1:
 1
