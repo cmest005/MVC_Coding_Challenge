@@ -16,6 +16,7 @@ For each data set, output “Data Set x:” on a line by itself, where x is its 
 Sample Input / Output
 
 Input	
+
 2
 
 2 2
