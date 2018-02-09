@@ -14,6 +14,7 @@ Output
 For each data set, output “Data Set x:” on a line by itself, where x is its number. On the next line, output the difference between the highest price and the lowest price, in terms of the smallest denomination. Each data set should be followed by a blank line.
 
 Sample Input / Output
+
 Input	
 2
 
