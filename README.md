@@ -26,7 +26,7 @@ Input	Output
 3 0 0
 1 10 0
 
-	Data Set 1:
+Data Set 1:
 1
 Data Set 2:
 44
