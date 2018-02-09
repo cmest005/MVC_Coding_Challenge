@@ -36,6 +36,7 @@ Input
 1 10 0
 
 Output
+
 Data Set 1:
 1
 
