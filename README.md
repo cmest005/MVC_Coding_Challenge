@@ -38,5 +38,6 @@ Input	Output
 
 Data Set 1:
 1
+
 Data Set 2:
 44
