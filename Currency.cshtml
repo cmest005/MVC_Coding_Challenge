@@ -3,48 +3,48 @@
 @{
     ViewBag.Title = "Currency";
 }
-<br />
-<img src="~/images/currency-exchange-header.png" width="30%" height="30%" /> <br />
-<br />
-@using (Html.BeginForm())
+
+<h2>Currency</h2>
+
+
+@using (Html.BeginForm()) 
 {
     @Html.AntiForgeryToken()
-
-    <div class="form-horizontal">
-
-
-
-        <div sstyle="" class=" resultsDataSets">
-            <table id="dataset" class="table">
-
-                <tr>
-                    <th id="columnHeads">Input</th>
-                    <th id="columnHeads">Output</th>
-                </tr>
-                <tr>
-                    <td>
-                        @foreach (var ds in ViewBag.CollectionDataSet)
-                        {
-                            @Html.Raw(ds) ; <br />
-                        }
-
-                    </td>
-                    <td>
-                        @{ int i = 1;}
-                        @foreach (var cr in ViewBag.CollectionResults)
-                        {
-                            @Html.Raw("Data Set: ")
-                            @i <br />
-                            @Html.Raw(cr) ; <br />
-                            i++;
-                        }
-                    </td>
-                </tr>
-
-            </table>
+    
+<div class="form-horizontal">
 
 
-        </div>
+
+    <div sstyle="" class=" resultsDataSets">
+        <table id="dataset" class="table">
+
+            <tr>
+                <th id="columnHeads">Input</th>
+                <th id="columnHeads">Output</th>
+            </tr>
+            <tr>
+                <td>
+                    @foreach (var ds in ViewBag.CollectionDataSet)
+                    {
+                        @Html.Raw(ds) ; <br />
+                    }
+                </td>
+               <td>
+                   @{ int i = 1;}
+                   @foreach (var cr in ViewBag.CollectionResults)
+                     {
+                         @Html.Raw("Data Set: ")
+                         @i <br />
+                         @Html.Raw(cr) ; <br />
+                         i++;
+                     }
+               </td>
+            </tr>
+
+        </table>
+
+
+    </div>
 
 
 
